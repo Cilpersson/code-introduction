@@ -1,0 +1,70 @@
+body{
+  margin: 0%;
+  font-family: 'Quicksand', sans-serif;
+  background-color: white;
+} 
+ 
+.container{
+  text-align: center;
+  padding: 0em 15em;
+}
+
+h1 {
+  color:gray;
+  text-align: center;
+  line-height: 0;
+  }
+
+.ulHeader {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 150px;
+  align-items: flex-end;
+}
+
+.liHeader {
+  margin: 0.5em;
+  padding: 0em;
+}
+
+.liHeader img {
+  width: 130px;
+  height: auto;
+}
+
+p{
+  text-align: justify;
+  line-height: 1.4em;
+}
+
+.containerIcon img{
+  width: 50px;
+  height: auto;
+  
+}
+
+.ulIcons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 150px;
+  align-items: flex-end;
+
+}
+
+.liIcons {
+margin: 1em;
+padding: 5px;
+}
+
+.iconCredit {
+  text-align: right;
+  margin: 5px;
+}
